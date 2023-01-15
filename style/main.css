@@ -1,0 +1,95 @@
+body {
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    background-color: #e0c9c96c;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    padding: 0;
+    margin: 0;
+}
+
+p {
+    padding: 0;
+    margin: 0;
+}
+
+a {
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+}
+
+header, main {
+    padding: 20px;
+}
+
+.p40 {
+    padding: 0px 40px;
+}
+
+.link {
+    color: rgb(61, 61, 61);
+}
+
+.dflex {
+    display: flex;
+}
+
+.m-0 {
+    margin: 0 auto;
+}
+
+.container {
+    max-width: 1200px;
+}
+
+.header-menu {
+    background-color: #fff;
+    border-radius: 20px;
+    padding: 10px 0px;
+}
+
+.header-menu {
+    justify-content: center;
+}
+
+.header-links, .header-basket {
+    align-self: center;
+}
+
+.header-link__item {
+    padding: 0px 10px;
+    transition: .5s;
+}
+
+.header-link__item:hover { 
+    transition: .5s;
+    color: #ff8a8a;
+}
+
+.product {
+    transition: .5s;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.product__card {
+    margin: 10px 10px;
+    transition: .5s;
+    background-color: #fff;
+    border-radius: 20px;
+
+    box-shadow: .1rem .1rem .5rem rgba(0, 0, 0, .05);
+}
+
+.product__img {
+    display: flex;
+    justify-content: center;
+}
+
+.product-inf {
+    line-height: 2.25rem;
+    padding: 20px 20px;
+}
