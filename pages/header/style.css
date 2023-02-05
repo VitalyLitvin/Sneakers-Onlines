@@ -1,0 +1,125 @@
+input[type=text] {
+    border: none;
+    background-color: #f0f0f0;
+    font-size: 18px;
+    color: #3d3d3d;
+}
+
+input[type=text]:focus {
+    border: none;
+    outline: none;
+}
+
+.header-menu {
+    background-color: #fff;
+    border-radius: 20px;
+    padding: 10px 0px;
+}
+
+.header-menu {
+    justify-content: space-between;
+    align-items: center;
+}
+
+.btn-sidebar_open{
+    color: #3d3d3d;
+    text-decoration: none;
+}
+
+.sidebar_open {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    gap: 10px;
+    background-color: #f0f0f0;
+    border: 0px solid;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.header-links {
+    top: 7.5%;
+    visibility: hidden;
+    z-index: 999;
+    overflow: hidden;
+    color: #3d3d3d;
+    background-color: #f0f0f0;
+    position: fixed;
+    border-radius: 20px;
+    padding: 20px;
+    transition: .25s;
+    opacity: 0;
+}
+
+.header-links li {
+    padding: 2px 0px;
+}
+
+.sidebar-menu:hover .header-links, .show {
+    visibility: visible;
+    opacity: 1;
+    top: 9%;
+    transition: .25s;
+}
+
+.sidebar_close {
+    display: none;
+    justify-content: end;
+    padding: 20px;
+}
+
+.header-links li, a {
+    text-decoration: none;
+    list-style-type: none;
+}
+
+.header-forms {
+    gap: 30px;
+}
+
+.header-link__item {
+    padding: 0px 10px;
+}
+
+.header-link__item:hover { 
+    transition: .1s;
+    color: #000000;
+}
+
+.search-form_item {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    gap: 10px;
+    border-radius: 20px;
+    background-color: #f0f0f0;
+}
+
+.menu-items {
+    gap: 30px;
+    background-color: #f0f0f0;
+    padding: 10px;
+    border-radius: 20px;
+}
+
+.header-user_item, .header-favorites_item, .header-cart_item, .search-form_icon {
+    display: flex;
+    align-items: center;
+}
+
+.header-cart_item {
+    position: relative;
+}
+
+.cart-counter {
+    position:absolute;
+    left: 65%;
+    bottom: 65%;
+    padding: 7px;
+    font-size: 15px;
+    border-radius: 20px;
+    text-align: center;
+    background-color: #db4437;
+    line-height: .6rem;
+    color: #fff;
+}

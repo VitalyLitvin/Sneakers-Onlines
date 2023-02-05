@@ -1,0 +1,17 @@
+.magazine {
+  width: 100%;
+  border-radius: 20px;
+  background-color: #FFE2B5;
+}
+
+.magazine-inner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px 20px;
+}
+
+.magazine-title h1{
+  color: #1f1f1f;
+  font-family: 'Poppins', sans-serif;
+}

@@ -24,31 +24,8 @@
     <title>SneanekrsMe</title>
 </head>
 <body>
-    <header class="header">
-        <div class="container m-0">
-            <div class="header-inner">
-                <div class="header-menu dflex">
-                    <div class="menu-logo p40">
-                        <div class="menu-logo-item">
-                            <img src="img/logo.svg" alt="SneakersMe" width="56px" height="50px">
-                        </div>
-                    </div>
-                    <div class="header-links">
-                        <a href="#" class="header-link__item link" title="Кроссовки">Кроссовки</a>
-                        <a href="#" class="header-link__item link" title="Кеды">Кеды</a>
-                        <a href="#" class="header-link__item link" title="Вся обувь">Вся обувь</a>
-                        <a href="#" class="header-link__item link" title="О нас">О нас</a>
-                        <a href="#" class="header-link__item link" title="Контакты">Контакты</a>
-                    </div>
-                    <div class="header-basket p40">
-                        <div class="header-baskt__item">
-                            <img src="https://cdn-icons-png.flaticon.com/512/8071/8071101.png" alt="корзина"  width="35px" height="35px">
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </header>
+    <?php include 'pages/header/header.php'; ?>
+    <?php include 'components/magazine/magazine.php'; ?>
     <main class="main">
         <div class="container m-0">
             <div class="product">
